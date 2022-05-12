@@ -13,18 +13,19 @@ header {
     width: 100%;
     height: 10vh;
     background-color: bisque;
-    /* position: fixed; */
+    position: fixed;
 }
 
 main {
     width: 90%;
-    height: 80vh;
+    height: 100vh;
     margin: 0 auto;
     background-color: cadetblue;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     overflow: scroll;
+    padding: 10vh 0;
 }
 
 .cam-container {
@@ -39,6 +40,6 @@ footer {
     width: 100%;
     height: 10vh;
     background-color: brown;
-    /* position: fixed; */
+    position: fixed;
     bottom: 0;
 }
