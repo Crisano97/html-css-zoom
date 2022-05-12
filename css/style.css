@@ -16,10 +16,13 @@ header {
     position: fixed;
     display: flex;
     justify-content: end;
+    z-index: 1;
 }
 
-.button {
-    /* background-color: gray; */
+.button button {
+    color: white;
+    background-color: gray;
+    padding: 3px;
 }
 
 main {
@@ -34,6 +37,16 @@ main {
     padding: 10vh 0;
 }
 
+.user {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    font-size: 10px;
+    padding: 5px;
+}
+
 .cam-container {
     background-image: url(https://picsum.photos/190/110);
     width: 190px;
@@ -41,6 +54,7 @@ main {
     /* background-color: black; */
     border: 1px solid white;
     margin-bottom: 5px;
+    position: relative;
 }
 
 footer {
@@ -49,4 +63,9 @@ footer {
     background-color: black;
     position: fixed;
     bottom: 0;
+    display: flex;
+    justify-content: space-between;
+}
+footer div {
+    color: white;
 }
